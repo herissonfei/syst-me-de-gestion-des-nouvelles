@@ -86,15 +86,8 @@ export default function TopHeader() {
     <Header
       style={{
         padding: "0 24px",
-        // marginLeft: 50
-        // background: colorBgContainer,
       }}
     >
-      {/* {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
-        className: "trigger",
-        onClick: () => setCollapsed(!collapsed),
-      })} */}
-      {/* {collapsed ? <MenuFoldOutlined /> : <MenuUnfoldOutlined />} */}
       <div className="profil">
         <Dropdown
           menu={{
@@ -107,7 +100,7 @@ export default function TopHeader() {
             onClick={(e) => e.preventDefault()}
           >
             <Space>
-              Welcome<span className="uname">{username}</span>
+              Bonjour<span className="uname">{username}</span>
               <Avatar size="large" icon={<UserOutlined />} />
               <DownOutlined />
             </Space>

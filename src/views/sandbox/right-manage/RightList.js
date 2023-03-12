@@ -89,7 +89,7 @@ export default function RightList() {
         deleteMethod(item);
       },
       onCancel() {
-        // console.log("Cancel");
+       
       },
     });
   };

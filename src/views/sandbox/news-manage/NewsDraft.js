@@ -107,7 +107,7 @@ export default function NewsDraft() {
         deleteMethod(item);
       },
       onCancel() {
-        // console.log("Cancel");
+        
       },
     });
   };

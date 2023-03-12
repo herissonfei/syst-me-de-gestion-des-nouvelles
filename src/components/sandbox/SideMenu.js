@@ -134,6 +134,7 @@ export default function SideMenu() {
   // console.log(menu);
   return (
     <Sider
+      width={276}
       collapsible
       collapsed={collapsed}
       onCollapse={(value) => setCollapsed(value)}

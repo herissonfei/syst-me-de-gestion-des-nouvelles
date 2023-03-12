@@ -164,7 +164,7 @@ export default function UserList() {
         deleteMethod(item);
       },
       onCancel() {
-        // console.log("Cancel");
+        
       },
     });
   };

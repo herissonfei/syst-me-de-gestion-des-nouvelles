@@ -87,7 +87,7 @@ export default function RoleList() {
         deleteMethod(item);
       },
       onCancel() {
-        // console.log("Cancel");
+        
       },
     });
   };
@@ -139,7 +139,7 @@ export default function RoleList() {
       ></Table>
 
       <Modal
-        title="权限分配"
+        title="Attribution d'autorité"
         open={isModalOpen}
         onOk={handleOk}
         onCancel={handleCancel}
