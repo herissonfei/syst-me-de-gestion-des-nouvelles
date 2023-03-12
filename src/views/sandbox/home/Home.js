@@ -140,7 +140,7 @@ export default function Home() {
       },
       series: [
         {
-          name: "发布数量",
+          name: "Quantité",
           type: "pie",
           radius: "50%",
           data: list,
