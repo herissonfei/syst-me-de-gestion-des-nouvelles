@@ -1,6 +1,10 @@
-## Pile technologique
+# Pile technologique
 
 react@18.2.0 + react-router-dom@6.8.0 + axios@1.3.0 + antd@5.1.7
+
+# <<<<<<< HEAD
+
+> > > > > > > origin/master
 
 # commencement
 
@@ -23,7 +27,7 @@ Démarrer le serveur JSON Maintenant, le serveur JSON écoute sur http://localho
 Exécute l'application en mode développement.
 Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans votre navigateur.
 
-## Liste des fonctions
+# Liste des fonctions
 
 - [√] Le projet est chargé par le module de routage
 - [√] Connexion et contrôle des autorisations de connexion
@@ -53,3 +57,8 @@ Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans votre
 ![image](https://user-images.githubusercontent.com/89328999/224622212-581d126d-5391-4e86-a229-b1736e0dcf7c.png)
 
 ![image](https://user-images.githubusercontent.com/89328999/224620313-a6d4cb8f-10e9-4747-85b0-2a1540f762c0.png)
+
+## Informations d'auteur
+
+- Auteur: Hangfei Lin
+- Courriel: lhangfei@gmail.com
