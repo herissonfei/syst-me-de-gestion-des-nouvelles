@@ -2,10 +2,6 @@
 
 Node.js v16.17.0 + react@18.2.0 + react-router-dom@6.8.0 + axios@1.3.0 + less@2.7.1 + antd@5.1.7
 
-Il s'agit d'un système de gestion d'arrière-plan
-
-La réalisation de fonctions est principalement utilisée (développement de composants React, React hooks, React Router, bibliothèque de composants d'Ant design)
-
 
 # commencement
 
