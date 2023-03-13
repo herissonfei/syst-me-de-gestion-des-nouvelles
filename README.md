@@ -4,15 +4,14 @@ react@18.2.0 + react-router-dom@6.8.0 + axios@1.3.0 + antd@5.1.7
 
 # commencement
 
-Dans le répertoire du projet, vous pouvez exécuter :
+### git clone https://github.com/herissonfei/syst-me-de-gestion-des-nouvelles.git  
+### cd .\syst-me-de-gestion-des-nouvelles\
+
+Dans ce répertoire (syst-me-de-gestion-des-nouvelles) , vous pouvez exécuter :
 
 ### npm install
 
-Installer les dépendances nécessaires (node_modules)
-
 ### npm install -g json-server
-
-Installer le serveur JSON
 
 ### json-server --watch db.json --port 5000
 
@@ -53,6 +52,17 @@ Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans votre
 ![image](https://user-images.githubusercontent.com/89328999/224622212-581d126d-5391-4e86-a229-b1736e0dcf7c.png)
 
 ![image](https://user-images.githubusercontent.com/89328999/224620313-a6d4cb8f-10e9-4747-85b0-2a1540f762c0.png)
+
+### Système de visite：
+- http://localhost:3000/#/news
+- http://localhost:3000/#/detail/2  
+  
+  aucune connexion requise, tout le monde peut accéder
+  
+  Les visiteurs peuvent voir toutes les nouvelles et accéder à la page de détails de la nouvelle  
+  
+![image](https://user-images.githubusercontent.com/89328999/224641256-67f5f59b-a02d-4cbd-9f16-3f21aed71f10.png)
+
 
 ## Informations d'auteur
 
