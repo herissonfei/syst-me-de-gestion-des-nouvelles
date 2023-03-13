@@ -1,6 +1,6 @@
 ## Pile technologique
 
-Node.js v16.17.0 + react@18.2.0 + react-router-dom@6.8.0 + axios@1.3.0 + less@2.7.1 + antd@5.1.7
+react@18.2.0 + react-router-dom@6.8.0 + axios@1.3.0 + less@2.7.1 + antd@5.1.7
 
 
 # commencement
