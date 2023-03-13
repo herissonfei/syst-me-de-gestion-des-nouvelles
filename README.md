@@ -3,6 +3,8 @@
 react@18.2.0 + react-router-dom@6.8.0 + axios@1.3.0 + antd@5.1.7
 
 
+
+
 # commencement
 
 Dans le répertoire du projet, vous pouvez exécuter :
@@ -25,6 +27,8 @@ Exécute l'application en mode développement.
 Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans votre navigateur.
 
 
+
+
 ## Liste des fonctions
 
 - [√] Le projet est chargé par le module de routage
@@ -33,6 +37,7 @@ Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans votre
 - [√] Ajouter, supprimer, modifier et vérifier les utilisateurs
 - [√] Gestion des droits des utilisateurs
 - [√] Ajouter, supprimer, modifier et vérifier les nouvelles
+
 
 ## captures d'écran
 
