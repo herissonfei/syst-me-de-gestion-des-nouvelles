@@ -27,8 +27,7 @@ Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans votre
 
 ## Liste des fonctions
 
-- 登录与退出
-
+- [√] Le projet est chargé par le module de routage
 
 ## captures d'écran
 
