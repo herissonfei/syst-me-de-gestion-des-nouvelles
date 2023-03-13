@@ -45,6 +45,10 @@ Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans votre
 
 ![image](https://user-images.githubusercontent.com/89328999/224610509-e3490cba-36c5-4069-b657-3dd77d548dfa.png)
 
+![image](https://user-images.githubusercontent.com/89328999/224619882-4b37739f-963e-498b-b20b-491ce172cab1.png)
+
+![image](https://user-images.githubusercontent.com/89328999/224620313-a6d4cb8f-10e9-4747-85b0-2a1540f762c0.png)
+
 
 
 
