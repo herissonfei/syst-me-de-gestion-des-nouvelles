@@ -30,6 +30,22 @@ Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans votre
 ![image](https://user-images.githubusercontent.com/89328999/224596721-13752ef7-656c-4086-be77-8d973a3ee38b.png)
 
 ![image](https://user-images.githubusercontent.com/89328999/224598803-5f4c7815-1126-4f68-b35c-86b264c687f7.png)
+
 ![image](https://user-images.githubusercontent.com/89328999/224599476-e6a26830-c81f-4cc8-8349-af6e0b304536.png)
+
+![image](https://user-images.githubusercontent.com/89328999/224602563-77972d25-8e77-4ad9-a83a-ad9db24d5721.png)
+
+![image](https://user-images.githubusercontent.com/89328999/224608710-d598d4fa-21ae-4a3e-8dd0-395b0bde1cfa.png)
+
+![image](https://user-images.githubusercontent.com/89328999/224608997-34f87e88-4649-4eef-9cb4-7b53ca01d1f5.png)
+
+![image](https://user-images.githubusercontent.com/89328999/224609420-a1a848d6-e6f2-43da-ac10-e343f385ee4a.png)
+
+![image](https://user-images.githubusercontent.com/89328999/224609810-059ebbd2-7f29-4b5e-80d3-dbd561ba757c.png)
+
+![image](https://user-images.githubusercontent.com/89328999/224610509-e3490cba-36c5-4069-b657-3dd77d548dfa.png)
+
+
+
 
 
