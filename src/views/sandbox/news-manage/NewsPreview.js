@@ -16,8 +16,13 @@ export default function NewsPreview(props) {
     });
   }, [id]);
 
-  const auditList = ["未审核", "审核中", "已通过", "未通过"];
-  const publishList = ["未发布", "待发布", "已上线", "已下线"];
+  const auditList = ["Pas révisé", "À l'audit", "Passé", "Refusé"];
+  const publishList = [
+    "Inédit",
+    "En attente d'être libéré",
+    "En ligne",
+    "Hors ligne",
+  ];
 
   const colorList = ["black", "orange", "green", "red"];
   return (
@@ -30,38 +35,40 @@ export default function NewsPreview(props) {
             onBack={() => window.history.back()}
           />
           <Descriptions>
-            <Descriptions.Item label="创建者">
+            <Descriptions.Item label="Auteur">
               {newsInfo.author}
             </Descriptions.Item>
-            <Descriptions.Item label="创建时间">
+            <Descriptions.Item label="temps de creation">
               {/* 时间 */}
               {moment(newsInfo.createTime).format("YYYY/MM/DD HH:mm:ss")}
             </Descriptions.Item>
-            <Descriptions.Item label="发布时间">
+            <Descriptions.Item label="temps de publication">
               {newsInfo.publishTime
                 ? moment(newsInfo.publishTime).format("YYYY/MM/DD HH:mm:ss")
                 : "-"}
             </Descriptions.Item>
-            <Descriptions.Item label="区域">
+            <Descriptions.Item label="Region">
               {newsInfo.region}
             </Descriptions.Item>
-            <Descriptions.Item label="审核状态">
+            <Descriptions.Item label="Statut d'audit">
               <span style={{ color: colorList[newsInfo.auditState] }}>
                 {auditList[newsInfo.auditState]}
               </span>
             </Descriptions.Item>
-            <Descriptions.Item label="发布状态">
+            <Descriptions.Item label="Statut de la publication">
               <span style={{ color: colorList[newsInfo.publishState] }}>
                 {publishList[newsInfo.publishState]}
               </span>
             </Descriptions.Item>
-            <Descriptions.Item label="访问数量">
+            <Descriptions.Item label="Nombre de visites">
               {newsInfo.view}
             </Descriptions.Item>
-            <Descriptions.Item label="点赞数量">
+            <Descriptions.Item label="Nombre d'aimer">
               {newsInfo.star}
             </Descriptions.Item>
-            <Descriptions.Item label="评论数量">0</Descriptions.Item>
+            <Descriptions.Item label="Nombre de commentaires">
+              0
+            </Descriptions.Item>
           </Descriptions>
 
           <div

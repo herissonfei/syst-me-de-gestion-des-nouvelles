@@ -256,7 +256,7 @@ export default function Home() {
       <div
         ref={barRef}
         style={{
-          width: "100%",
+          width: "90%",
           height: "400px",
           marginTop: "30px",
         }}

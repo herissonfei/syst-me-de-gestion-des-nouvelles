@@ -101,14 +101,12 @@ export default function NewsDraft() {
 
   const confirmMethod = (item) => {
     confirm({
-      title: "Voulez-vous supprimer ces éléments ?",
+      title: "Voulez-vous supprimer cette nouvelle?",
       icon: <ExclamationCircleFilled />,
       onOk() {
         deleteMethod(item);
       },
-      onCancel() {
-        
-      },
+      onCancel() {},
     });
   };
 

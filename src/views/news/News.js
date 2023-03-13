@@ -20,6 +20,17 @@ export default function News() {
       );
     });
   }, []);
+  console.log(list);
+  list.map((item) => {
+    item[1].map((item) => {
+      if (!item.label) {
+        item.label = item.title;
+      }
+      return item;
+    });
+    return item;
+  });
+  console.log(list);
 
   return (
     <div

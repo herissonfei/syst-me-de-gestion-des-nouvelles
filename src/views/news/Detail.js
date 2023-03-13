@@ -59,26 +59,28 @@ export default function Detail(props) {
             onBack={() => window.history.back()}
           />
           <Descriptions>
-            <Descriptions.Item label="创建者">
+            <Descriptions.Item label="Auteur">
               {newsInfo.author}
             </Descriptions.Item>
 
-            <Descriptions.Item label="发布时间">
+            <Descriptions.Item label="temps de publication">
               {newsInfo.publishTime
                 ? moment(newsInfo.publishTime).format("YYYY/MM/DD HH:mm:ss")
                 : "-"}
             </Descriptions.Item>
-            <Descriptions.Item label="区域">
+            <Descriptions.Item label="Region">
               {newsInfo.region}
             </Descriptions.Item>
 
-            <Descriptions.Item label="访问数量">
+            <Descriptions.Item label="Nombre de visites">
               {newsInfo.view}
             </Descriptions.Item>
-            <Descriptions.Item label="点赞数量">
+            <Descriptions.Item label="Nombre d'aimer">
               {newsInfo.star}
             </Descriptions.Item>
-            <Descriptions.Item label="评论数量">0</Descriptions.Item>
+            <Descriptions.Item label="Nombre de commentaires">
+              0
+            </Descriptions.Item>
           </Descriptions>
 
           <div

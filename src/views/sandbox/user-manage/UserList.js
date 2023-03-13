@@ -158,7 +158,7 @@ export default function UserList() {
 
   const confirmMethod = (item) => {
     confirm({
-      title: "Voulez-vous supprimer ces éléments ?",
+      title: "Voulez-vous supprimer ce utilisateur ?",
       icon: <ExclamationCircleFilled />,
       onOk() {
         deleteMethod(item);

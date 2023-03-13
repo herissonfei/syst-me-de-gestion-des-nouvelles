@@ -65,7 +65,7 @@ export default function RightList() {
                   ></Switch>
                 </div>
               }
-              title="页面配置项"
+              title="Configuration des pages"
               trigger={item.pagepermisson === undefined ? "" : "click"}
             >
               <Button
@@ -88,9 +88,7 @@ export default function RightList() {
       onOk() {
         deleteMethod(item);
       },
-      onCancel() {
-       
-      },
+      onCancel() {},
     });
   };
 
