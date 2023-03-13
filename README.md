@@ -63,5 +63,6 @@ Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans votre
 
 
 
-
-
+## Informations d'auteur
+Auteur: Hangfei Lin
+Courriel: lhangfei@gmail.com
