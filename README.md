@@ -56,10 +56,11 @@ Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans votre
 
 ### Système de visite：
 - http://localhost:3000/#/news
-- http://localhost:3000/#/detail/2
-aucune connexion requise, tout le monde peut accéder
-
-Les visiteurs peuvent voir toutes les actualités et accéder à la page de détails de l'actualité
+- http://localhost:3000/#/detail/2  
+  
+  aucune connexion requise, tout le monde peut accéder
+  
+  Les visiteurs peuvent voir toutes les actualités et accéder à la page de détails de l'actualité
 ![image](https://user-images.githubusercontent.com/89328999/224641256-67f5f59b-a02d-4cbd-9f16-3f21aed71f10.png)
 
 
