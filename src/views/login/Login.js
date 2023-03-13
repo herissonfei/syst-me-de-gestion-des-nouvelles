@@ -23,7 +23,7 @@ export default function Login() {
           // message来自antd
         } else {
           localStorage.setItem("token", JSON.stringify(res.data[0]));
-          navigate("/");
+          navigate("/home");
         }
       });
   };

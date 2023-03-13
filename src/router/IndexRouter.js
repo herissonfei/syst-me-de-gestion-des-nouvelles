@@ -53,8 +53,7 @@ export default function IndexRouter() {
       setBackRouteList(res.data);
     });
   }, []);
-  // let rights;
-  // console.log(JSON.parse(localStorage.getItem("token")));
+
   let token;
   if (!JSON.parse(localStorage.getItem("token"))) {
     token = {
@@ -123,7 +122,7 @@ export default function IndexRouter() {
   const list = [
     {
       path: "/",
-      element: <NewsSandBox />,
+      element: <Login />,
     },
     {
       path: "/news",
@@ -159,10 +158,6 @@ export default function IndexRouter() {
             },
           ],
         },
-    // {
-    //   path: "/home",
-    //   element: <Navigate to="/news/home" />,
-    // },
 
     ...BackRouteList.map((route) =>
       checkRoute(route) && checkUserPermission(route)
@@ -202,51 +197,3 @@ export default function IndexRouter() {
 
   return routes;
 }
-// const routes = useRoutes([
-//   {
-//     path: "/",
-//     element: <Navigate to="/news" />,
-//   },
-//   {
-//     path: "/home",
-//     element: <Navigate to="/news/home" />,
-//   },
-//   {
-//     path: "/login",
-//     element: <Login />,
-//   },
-//   {
-//     path: "/news",
-//     element: <NewsSandBox />,
-//     children: [
-//       {
-//         path: "home",
-//         element: <Home />,
-//       },
-//     ],
-//   },
-//   {
-//     path: "/user-manage",
-//     element: <NewsSandBox />,
-//     children: [
-//       {
-//         path: "/user-manage/list",
-//         element: <UserList />,
-//       },
-//     ],
-//   },
-//   {
-//     path: "/right-manage",
-//     element: <NewsSandBox />,
-//     children: [
-//       {
-//         path: "/right-manage/right/list",
-//         element: <RightList />,
-//       },
-//       {
-//         path: "role/list",
-//         element: <RoleList />,
-//       },
-//     ],
-//   },
-// ]);
