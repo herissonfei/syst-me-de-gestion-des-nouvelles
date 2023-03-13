@@ -28,6 +28,11 @@ Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans votre
 ## Liste des fonctions
 
 - [√] Le projet est chargé par le module de routage
+- [√] Connexion et contrôle des autorisations de connexion
+- [√] Se déconnecter
+- [√] Ajouter, supprimer, modifier et vérifier les utilisateurs
+- [√] Gestion des droits des utilisateurs
+- [√] Ajouter, supprimer, modifier et vérifier les nouvelles
 
 ## captures d'écran
 
