@@ -54,6 +54,10 @@ Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans votre
 
 ![image](https://user-images.githubusercontent.com/89328999/224620313-a6d4cb8f-10e9-4747-85b0-2a1540f762c0.png)
 
+### Système de visite, aucune connexion requise, tout le monde peut accéder
+![image](https://user-images.githubusercontent.com/89328999/224641256-67f5f59b-a02d-4cbd-9f16-3f21aed71f10.png)
+
+
 ## Informations d'auteur
 
 - Auteur: Hangfei Lin
