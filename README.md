@@ -2,10 +2,6 @@
 
 react@18.2.0 + react-router-dom@6.8.0 + axios@1.3.0 + antd@5.1.7
 
-# <<<<<<< HEAD
-
-> > > > > > > origin/master
-
 # commencement
 
 Dans le répertoire du projet, vous pouvez exécuter :
