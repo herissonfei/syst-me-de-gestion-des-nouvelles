@@ -4,15 +4,14 @@ react@18.2.0 + react-router-dom@6.8.0 + axios@1.3.0 + antd@5.1.7
 
 # commencement
 
-Dans le répertoire du projet, vous pouvez exécuter :
+### git clone https://github.com/herissonfei/syst-me-de-gestion-des-nouvelles.git  
+### cd .\syst-me-de-gestion-des-nouvelles\
+
+Dans ce répertoire (syst-me-de-gestion-des-nouvelles) , vous pouvez exécuter :
 
 ### npm install
 
-Installer les dépendances nécessaires (node_modules)
-
 ### npm install -g json-server
-
-Installer le serveur JSON
 
 ### json-server --watch db.json --port 5000
 
