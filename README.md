@@ -27,3 +27,4 @@ Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans votre
 
 ## captures d'écran
 ![image](https://user-images.githubusercontent.com/89328999/224596276-d1e32814-42bc-47cf-8d66-03744079d55e.png)
+![image](https://user-images.githubusercontent.com/89328999/224596721-13752ef7-656c-4086-be77-8d973a3ee38b.png)
