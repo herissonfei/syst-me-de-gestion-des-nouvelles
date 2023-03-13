@@ -27,7 +27,7 @@ Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans votre
 
 ## Liste des fonctions
 
--登录与退出
+- 登录与退出
 
 
 ## captures d'écran
