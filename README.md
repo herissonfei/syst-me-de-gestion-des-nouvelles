@@ -32,6 +32,7 @@ Ouvrez [http://localhost:3000](http://localhost:3000) pour l'afficher dans votre
 - [√] Ajouter, supprimer, modifier et vérifier les nouvelles
 
 ## captures d'écran
+Nom: admin,   mot de passe: 123456
 
 ![image](https://user-images.githubusercontent.com/89328999/224596721-13752ef7-656c-4086-be77-8d973a3ee38b.png)
 
